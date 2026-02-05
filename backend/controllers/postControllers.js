@@ -1,15 +1,15 @@
-// POST /requests
-const createRequest = (req, res) => {
+// POST /posts
+const createPost = (req, res) => {
   const { title, description } = req.body;
 
   res.status(201).json({
-    message: 'Request created (mock)',
-    request: { title, description }
+    message: 'Post created (mock)',
+    post: { title, description }
   });
 };
 
-// GET /requests
-const getRequests = (req, res) => {
+// GET /posts
+const getPosts = (req, res) => {
   res.json([
     {
       id: '1',
@@ -20,6 +20,6 @@ const getRequests = (req, res) => {
 };
 
 module.exports = {
-  createRequest,
-  getRequests
+  createPost,
+  getPosts
 };
