@@ -90,7 +90,7 @@ For detailed API documentation, see the backend README:
   https://web-project-k172.onrender.com/
 
 - **Repository:**  
-  https://github.com/MiksuNy/web-project
+  https://github.com/makuzaza/web_project_helpconnect
 
 ---
 
@@ -106,7 +106,7 @@ For detailed API documentation, see the backend README:
 
 ```bash
 # Clone the repository
-git clone https://github.com/MiksuNy/web-project
+git clone https://github.com/makuzaza/web_project_helpconnect
 
 # backend install
 cd web-project/backend
